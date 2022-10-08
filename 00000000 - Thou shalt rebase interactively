@@ -1,0 +1,12 @@
+When working with Git, interactive rebase should be at the ready in your toolb-
+elt. For example, when working on a branch, a common operation is to combine
+your commits together on top of a target branch. No need to merge and squash!
+
+               This can be done by doing          Your branch is now in the st-
+◇ ◀┐  ◈ ▼      an interactive rebase on     ◈     ate you expect your target
+   │  │ │      the target branch. Fixup     │     branch to be. Checkout the
+●  └─ ◈ ▲      the commits into one and     ●     target branch, reset it to
+│     │        make sure only your comm-    │     your source branch and push
+●─────┘        its are selected.            ●     to origin!
+
+Visit https://git-scm.com/docs/git-rebase#_interactive_mode for more info.
